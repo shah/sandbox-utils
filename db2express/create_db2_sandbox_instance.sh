@@ -5,6 +5,11 @@ set -v
 
 DB2_HOME=/opt/ibm/db2/V9.7
 
+if [ ! -d $DB_HOME ]; then
+  echo "DB2_HOME $DB2_HOME is not a valid directory."
+  exit 1
+fi
+
 #
 # If the instance already exists, drop it because we're going to recreate it.
 #

@@ -2,6 +2,7 @@
 
 echo "Install Java Developers Kit"
 sudo apt-get install -y sun-java6-jdk
+java -version
 
 export SETUP_ANT_VERSION=1.7.1
 wget http://apache.promopeddler.com/ant/binaries/apache-ant-$SETUP_ANT_VERSION-bin.tar.gz

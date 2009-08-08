@@ -2,6 +2,7 @@
 
 echo "Install Java Developers Kit"
 sudo apt-get install -y sun-java6-jdk
+java -version
 
 export SETUP_TOMCAT_VERSION_MAJOR=5
 export SETUP_TOMCAT_VERSION=5.5.27

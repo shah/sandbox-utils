@@ -11,3 +11,6 @@ sudo ln -s /usr/share/ant/bin/ant /usr/bin/ant
 
 echo "Setup Ant $SETUP_ANT_VERSION in /usr/share/ant."
 ls -l /usr/bin/ant
+
+echo ""
+echo "NOTE: Put JARs you want Ant to use for startup into $HOME/.ant/lib"
